@@ -10,8 +10,7 @@
 
 .container {
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 /*----------
@@ -33,6 +32,10 @@
 .header-top > .container {
     display: flex;
     background-color: #daa520;
+}
+
+.container {
+    display: flex;
 }
 
 .header-top > .container > * {
@@ -109,25 +112,17 @@
     flex-direction: column-reverse;
 }
 
-.flex-item-4 {
+.column-small {
     background-color: #ffc0cb;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 1000px;
+    width: 40%;
     height: 400px;
-    margin: auto;
     border: 1px dashed black;
 }
 
-.flex-item-5 {
+.column-big {
     background-color: #1e90ff;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 600px;
+    width: 60%;
     height: 400px;
-    margin: 0;
     border: 1px dashed black;
 }
 
